@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/css/index.css",
+      "PackagePath": "staticwebassets/css/index.css"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/alonso.png",
+      "PackagePath": "staticwebassets/images/alonso.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/ferrari.png",
+      "PackagePath": "staticwebassets/images/ferrari.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/hamilton.png",
+      "PackagePath": "staticwebassets/images/hamilton.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/hauger.png",
+      "PackagePath": "staticwebassets/images/hauger.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/leclerc.png",
+      "PackagePath": "staticwebassets/images/leclerc.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/norris.png",
+      "PackagePath": "staticwebassets/images/norris.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/ocon.png",
+      "PackagePath": "staticwebassets/images/ocon.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/perez.png",
+      "PackagePath": "staticwebassets/images/perez.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/piastri.png",
+      "PackagePath": "staticwebassets/images/piastri.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/redbull.png",
+      "PackagePath": "staticwebassets/images/redbull.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/russell.png",
+      "PackagePath": "staticwebassets/images/russell.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/sainz.png",
+      "PackagePath": "staticwebassets/images/sainz.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/stroll.png",
+      "PackagePath": "staticwebassets/images/stroll.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/test.png",
+      "PackagePath": "staticwebassets/images/test.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/images/verstappen.png",
+      "PackagePath": "staticwebassets/images/verstappen.png"
+    },
+    {
+      "Id": "/Users/Elias_1/Desktop/HK-23-Y2-S1/DS3103-WD/ExamWeb23/f1API/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.f1API.props",
+      "PackagePath": "build\\f1API.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.f1API.props",
+      "PackagePath": "buildMultiTargeting\\f1API.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.f1API.props",
+      "PackagePath": "buildTransitive\\f1API.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.f1API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>F1 API Documentation</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>F1 API Documentation</h1>
+    
+    <!-- Overview -->
+    <section>
+        <h2>Overview</h2>
+        <p>The F1 API allows for managing drivers and teams in a Formula 1 context. This documentation provides an overview of the available endpoints and their usage.</p>
+    </section>
+
+    <!-- Base URL -->
+    <section>
+        <h2>Base URL</h2>
+        <p>The base URL for all API endpoints is <code>http://localhost:5089/api/</code>. All endpoint paths should be appended to this base URL.</p>
+    </section>
+
+    <!-- Drivers Endpoints -->
+    <section class="endpoint">
+        <h2>Drivers</h2>
+        <div class="api-endpoint">
+            <p><strong>GET /api/Drivers</strong> - Retrieves a list of all drivers.</p>
+            <p><strong>POST /api/Drivers</strong> - Creates a new driver.</p>
+            <p><strong>PUT /api/Drivers</strong> - Updates an existing driver.</p>
+            <p><strong>GET /api/Drivers/{id}</strong> - Retrieves a driver by ID.</p>
+            <p><strong>DELETE /api/Drivers/{id}</strong> - Deletes a driver by ID.</p>
+            <p><strong>GET /api/Drivers/GetByNationality/{nationality}</strong> - Retrieves drivers by nationality.</p>
+        </div>
+    </section>
+
+    <!-- ImageUpload Endpoint -->
+    <section class="endpoint">
+        <h2>ImageUpload</h2>
+        <div class="api-endpoint">
+            <p><strong>POST /api/ImageUpload</strong> - Uploads an image file.</p>
+            <p>To upload an image file, send a POST request to the <code>/api/ImageUpload</code> endpoint. Include the image file as part of the request payload. The response will contain information about the uploaded image.</p>
+        </div>
+    </section>
+
+    <!-- Teams Endpoints -->
+    <section class="endpoint">
+        <h2>Teams</h2>
+        <div class="api-endpoint">
+            <p><strong>GET /api/Teams</strong> - Retrieves a list of all teams.</p>
+            <p><strong>POST /api/Teams</strong> - Creates a new team.</p>
+            <p><strong>PUT /api/Teams</strong> - Updates an existing team.</p>
+            <p><strong>GET /api/Teams/{id}</strong> - Retrieves a team by ID.</p>
+            <p><strong>DELETE /api/Teams/{id}</strong> - Deletes a team by ID.</p>
+            <p><strong>GET /api/Teams/GetByTeam/{team}</strong> - Retrieves teams by team name.</p>
+        </div>
+    </section>
+
+    <!-- Schemas -->
+    <section>
+        <h2>Schemas</h2>
+        <div class="api-endpoint">
+            <h3>Drivers</h3>
+            <p>Schema definition for the Drivers object:</p>
+            <pre><code>{ "id": number, "name": string, "nationality": string, ... }</code></pre>
+        </div>
+        <div class="api-endpoint">
+            <h3>Teams</h3>
+            <p>Schema definition for the Teams object:</p>
+            <pre><code>{ "id": number, "name": string, "country": string, ... }</code></pre>
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>

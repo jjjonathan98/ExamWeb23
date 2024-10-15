@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #f36f21;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #f36f21;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  pre,
+  code {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto;
+  }
+  
+  pre {
+    border: 1px solid #ddd;
+  }
+  
+  .api-endpoint {
+    margin-top: 40px;
+    background-color: #f8f8f8;
+    border-left: 4px solid #f36f21;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .api-endpoint h3 {
+    color: #f36f21;
+    margin-top: 0;
+  }
+  
+  .api-endpoint p {
+    margin-bottom: 10px;
+  }
+  
+  .api-endpoint ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+  }
+  
+  .api-endpoint ul li {
+    margin-bottom: 5px;
+  }
+  
+  .api-endpoint code {
+    background-color: #fff;
+    border: none;
+    padding: 0;
+  }
+  
+  .api-endpoint table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .api-endpoint table th,
+  .api-endpoint table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .api-endpoint table th {
+    background-color: #f36f21;
+    color: #fff;
+  }
+  
+  .api-endpoint table td {
+    background-color: #fff;
+  }
+  
+  .api-endpoint table tbody tr:nth-child(even) td {
+    background-color: #f8f8f8;
+  }
